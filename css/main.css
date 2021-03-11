@@ -1,0 +1,274 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+	color:#201b2d;
+	font-size: 15px;
+	font-weight: 400px;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: 700;
+
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header{
+	background: rgba(78,190,254,1);
+background: -moz-linear-gradient(left, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(78,190,254,1)), color-stop(100%, rgba(55,143,217,1)));
+background: -webkit-linear-gradient(left, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+background: -o-linear-gradient(left, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+background: -ms-linear-gradient(left, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+background: linear-gradient(to right, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebefe', endColorstr='#378fd9', GradientType=1 );
+
+	padding-top: 60px;
+	padding-bottom: 71px;	
+	color:#ffffff;
+}
+
+.logo{
+	width: 98px;
+	height:38px;
+}
+
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items:center
+}
+
+.offer{
+	
+	width: 560px;
+}
+
+.title {
+	font-size: 33px;
+	letter-spacing: 0.05em; 
+	line-height: 49px;
+}
+
+.title span{
+	font-size: 59px;
+	padding-bottom: 47px;
+	line-height: 73px;
+	
+
+}
+
+.intro{
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 16px;
+	padding-top: 25px;
+	padding-bottom: 60px;
+	line-height: 27px;
+	width: 397px;
+
+}
+
+
+.travel{
+	margin-top: 12px;
+	
+	width: 641px;
+	height: 641px;
+}
+
+.btn{
+	background: #ffd429;
+	width: 221px;
+	padding: 20px;
+	margin:0px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 15px;
+	font-weight:900;
+	color: #2e2a1b;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn:hover{
+	background: #edc424;
+}
+
+.gray{
+	color: gray;
+}
+
+.opportunties{
+	padding-top: 110px;
+	padding-bottom: 120px;
+	text-align: center;
+
+}
+.items{
+	display:flex;
+	justify-content: space-between;
+
+	padding-top: 70px;
+}
+
+.section-title{
+	font-size: 30px;
+	line-height: 25px;
+	text-align: center;
+
+}
+
+.item{
+	width: 300px;
+	background: url('../img/icon1.jpg') no-repeat center top;
+
+}
+
+.item-island{
+	background: url('../img/icon2.jpg') no-repeat center top;
+
+}
+
+.item-rocket{
+	background: url('../img/icon3.jpg') no-repeat center top;
+}
+
+.item-title{
+	padding-top: 100px;
+	padding-bottom: 18px;
+	font-size: 19px;
+	line-height: 25px;
+}
+
+.contacts{
+	
+	padding: 105px 0px;
+	background: #ecf3f8;
+}
+
+.form{
+	
+	padding-top: 60px;
+	max-width: 340px;
+	margin: 0 auto;
+}
+
+.input{
+	border: 1px solid #bbbbbb;
+	background: #fff;
+	width: 100%;
+	height: 46px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	color: #9c9b9f;
+	border-radius: 3px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	font-weight: 400px;
+
+}
+
+.inputFont{
+	font-family: "Montserrat", sans-serif;
+	font-size: 15px;
+	font-weight:900;
+	color: #2e2a1b;	
+}
+
+.btn-contacts{
+	width: 100%;
+	height: 56px;
+	padding-top: 20px 
+	padding-bottom: 23px;
+	border: 0;
+	cursor: pointer; 
+	
+}
+
+.footer{
+	background: #164d7a;
+	padding: 63px 0px;
+	text-align: center;
+}
+
+.text-footer{
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 14px; 
+	color: #fff;
+	padding: 0;
+	margin: 0;
+}
+
+.animated{
+	opacity: 0;
+}
+
+/*Responsive*/
+
+/*993px-1200px*/
+@media screen and (max-width: 1200px) {
+	.container{
+	width: 960px;
+	}
+	.travel {
+    width: 580px;
+    height: 580px;
+	}
+}
+
+/*769px-992px*/
+@media screen and (max-width: 992px) {
+	.container{
+	width: 720px;
+	}
+	.wrapper{
+		flex-direction: column;
+	}
+	.offer{
+		margin-top: 140px;
+		width:100%;
+	}
+	.intro{
+		width:100%;
+	}
+	.travel {
+ 	margin-top: 60px;
+	}
+
+}
+
+/*577px - 768px*/
+@media screen and (max-width: 768px) {
+	.container{
+	width: 540px;
+	}
+	.items{
+		flex-direction: column;
+	}
+	.item {
+    width: auto;
+    margin: 20px;
+	}
+}
+
+/*320px - 576px*/
+@media screen and (max-width: 576px) {
+	.container{
+	width: 90%;
+	}
+	.travel {
+    width: 300px;
+    height: 300px;
+	}
+}
